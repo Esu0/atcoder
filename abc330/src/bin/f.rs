@@ -47,7 +47,7 @@ fn main() {
     let (mut x, mut y) = xy.into_iter().unzip::<_, _, Vec<_>, Vec<_>>();
     x.sort_unstable();
     y.sort_unstable();
-    
+
     let mut l = -1;
     let mut r = 10i64.pow(9);
     while r - l > 1 {
