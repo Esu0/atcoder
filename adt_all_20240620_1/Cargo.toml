@@ -1,39 +1,54 @@
 [package]
-name = "agc066"
+name = "adt_all_20240620_1"
 version = "0.1.0"
 edition = "2018"
 
 [package.metadata.cargo-compete.bin]
-agc066-a = { alias = "a", problem = "https://atcoder.jp/contests/agc066/tasks/agc066_a" }
-agc066-b = { alias = "b", problem = "https://atcoder.jp/contests/agc066/tasks/agc066_b" }
-agc066-c = { alias = "c", problem = "https://atcoder.jp/contests/agc066/tasks/agc066_c" }
-agc066-d = { alias = "d", problem = "https://atcoder.jp/contests/agc066/tasks/agc066_d" }
-agc066-e = { alias = "e", problem = "https://atcoder.jp/contests/agc066/tasks/agc066_e" }
-agc066-f = { alias = "f", problem = "https://atcoder.jp/contests/agc066/tasks/agc066_f" }
+adt_all_20240620_1-a = { alias = "a", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc239_a" }
+adt_all_20240620_1-b = { alias = "b", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc301_a" }
+adt_all_20240620_1-c = { alias = "c", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc275_b" }
+adt_all_20240620_1-d = { alias = "d", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc265_b" }
+adt_all_20240620_1-e = { alias = "e", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc286_c" }
+adt_all_20240620_1-f = { alias = "f", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc288_c" }
+adt_all_20240620_1-g = { alias = "g", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc214_d" }
+adt_all_20240620_1-h = { alias = "h", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc241_e" }
+adt_all_20240620_1-i = { alias = "i", problem = "https://atcoder.jp/contests/adt_all_20240620_1/tasks/abc295_f" }
 
 [[bin]]
-name = "agc066-a"
+name = "adt_all_20240620_1-a"
 path = "src/bin/a.rs"
 
 [[bin]]
-name = "agc066-b"
+name = "adt_all_20240620_1-b"
 path = "src/bin/b.rs"
 
 [[bin]]
-name = "agc066-c"
+name = "adt_all_20240620_1-c"
 path = "src/bin/c.rs"
 
 [[bin]]
-name = "agc066-d"
+name = "adt_all_20240620_1-d"
 path = "src/bin/d.rs"
 
 [[bin]]
-name = "agc066-e"
+name = "adt_all_20240620_1-e"
 path = "src/bin/e.rs"
 
 [[bin]]
-name = "agc066-f"
+name = "adt_all_20240620_1-f"
 path = "src/bin/f.rs"
+
+[[bin]]
+name = "adt_all_20240620_1-g"
+path = "src/bin/g.rs"
+
+[[bin]]
+name = "adt_all_20240620_1-h"
+path = "src/bin/h.rs"
+
+[[bin]]
+name = "adt_all_20240620_1-i"
+path = "src/bin/i.rs"
 
 [dependencies]
 # ac-library-rs = "=0.1.1"
@@ -61,7 +76,7 @@ path = "src/bin/f.rs"
 # omniswap = "=0.1.0"
 # multiversion = "=0.7.2"
 # num = "=0.4.1"
-num-bigint = "=0.4.3"
+# num-bigint = "=0.4.3"
 # num-complex = "=0.4.3"
 # num-integer = "=0.1.45"
 # num-iter = "=0.1.43"
@@ -72,7 +87,7 @@ num-bigint = "=0.4.3"
 # nalgebra = "=0.32.3"
 # alga = "=0.9.3"
 # libm = "=0.2.7"
-rand = { version = "=0.8.5", features = ["small_rng", "min_const_gen"] }
+# rand = { version = "=0.8.5", features = ["small_rng", "min_const_gen"] }
 # getrandom = "=0.2.10"
 # rand_chacha = "=0.3.1"
 # rand_core = "=0.6.4"
